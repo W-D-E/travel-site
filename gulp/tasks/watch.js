@@ -23,6 +23,13 @@ gulp.task("watch", ()=>{
     gulp.start("cssInject");
 
   });
+
+  //watch for any changes in our javascripts files
+  watch('./app/assets/scripts/**/*.js', function() {
+    gulp.start('scriptsRefresh');
+  });
+
+
 });
 
 // cette task n'est lancé que si les "dependencies" contenues dans le deuxieme
@@ -30,4 +37,9 @@ gulp.task("watch", ()=>{
 gulp.task('cssInject',["styles"] , ()=> {
   return gulp.src('./app/temp/styles/styles.css')
   .pipe(browserSync.stream());
+});
+
+
+gulp.task('scriptsRefresh', ['scripts'],  function() {
+  browserSync.reload();
 });
