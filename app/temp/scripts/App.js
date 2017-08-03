@@ -60,14 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-<<<<<<< HEAD
-/***/ (function(module, exports) {
-=======
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11786,9 +11783,8 @@ var Modal = function () {
 
   return Modal;
 }();
->>>>>>> lazyloading
 
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\package.json'\n    at Error (native)\n    at Object.fs.openSync (fs.js:641:18)\n    at Object.fs.readFileSync (fs.js:509:33)\n    at ConfigChainBuilder.addConfig (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:146:32)\n    at ConfigChainBuilder.findConfigs (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:102:30)\n    at buildConfigChain (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:61:13)\n    at OptionManager.init (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:354:58)\n    at File.initOptions (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:212:65)\n    at new File (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:135:24)\n    at Pipeline.transform (C:\\Users\\JEQUANDO\\Desktop\\Web Works\\apprendre\\Projects\\GYHD_Projects\\travel-site\\node_modules\\babel-core\\lib\\transformation\\pipeline.js:46:16)");
+exports.default = Modal;
 
 /***/ })
 /******/ ]);
